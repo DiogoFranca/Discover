@@ -1,0 +1,53 @@
+<!--
+    2 LOJAS
+
+    Quantos produtos foram produzidos, 
+    quantos vendidos e agrupados por nome dos produtos.
+
+    obs: 
+    rowspan : agrupamento de linhas.
+    colspan : agrupamento de colunas.
+    scope="colgroup": é agrupamento de um grupo de colunas para acessibilidade.
+    scope="col": coluna para acessi...
+    scope="row": linhas para acessi...
+-->
+
+<table>
+    <caption>Produzidos x Vendidos por Lojas</caption>
+
+    <colgroup>
+        <col>
+        <col span="2" style="background: red">
+        <col span="2" style="background: blue">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2"></th><!-- rowspan serve para ocupar linhas-->
+            <th colspan="2" scope="colgroup">Afonso Pena</th> <!--colspan serve para ocupar colunas -->
+            <th colspan="2" scope="colgroup">Antônia Pereira</th>
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td>
+                <td>30</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th scope="row">Baldes</th>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </thead>
+</table>
