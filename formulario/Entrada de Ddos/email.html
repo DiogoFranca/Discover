@@ -31,11 +31,23 @@
         * <datalist> irá conter uma lista de valores pré  definidos a fim de sugerir ao usuário, quais valores estão disponíveis
                 * Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestção.
 -->
-
+<!-- 
 <form action="">
     <datalist id="email">
         <option>diogofranca845@gmail.com</option>
     </datalist>
     <input type="email"list="email" pattern=".+@gmail\.com\.br">
+    <button type="submit">Enviar</button>
+</form> -->
+
+
+<form action="">
+    <fieldset>
+        <legend>Multiple</legend>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" pattern=".+@abc\.com\.br" minlength="4" title="Digite o domínio abc, .com, .br">
+    </fieldset>
+
     <button type="submit">Enviar</button>
 </form>
