@@ -54,5 +54,14 @@ git clone (ssh)
 
 
 
+<h1 align="center" >Grayscale Template<h1/>
+
+## 🚀 Sobre o clone do template
+
+Template pego no site: <a href="https://startbootstrap.com/theme/grayscale">grayscale<a>.
+
+<p>O template foi usado como referência, para praticar meus conhecimentos em torno do html, css e javascript.<p/>
+
+
 
 
