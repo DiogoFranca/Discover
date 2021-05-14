@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset name="contato">
+            <legend>Contato</legend>
+
+            <label for="name">Name:</label>
+            <br>
+            <input id="name" type="text" name="name">
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input id="email" name="email" type="email" minlength="12" pattern=".+@gmail\.com\*" required title="Algo errado, digite como no exemplo: usuario@gmail.com; e com no mínimo 12 caracteres." placeholder="ex: usuario@gmail.com">
+            <br>
+            <br>
+
+            <label for="message">Mensagem:</label>
+            <br>
+            <textarea name="message"rows="5" cols="20" placeholder="Dê seu feedback aqui..." required></textarea>
+            <br>
+            <br>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
