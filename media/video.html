@@ -1,0 +1,38 @@
+<!--
+    <video>
+
+    - src
+    - controls
+    - se não funcionar ?
+        - fallback content
+    - source
+        - src
+        - type
+    
+    - sobre serviços de terceiros
+
+    - Preload: auto: vai baixar o video antes de dar play; none: vai nem carregar e nem mostrar dados básicos; metadata: apenas vai carregar a duração e outros dados básicos, sem baixar o video.
+
+    - Poster: colocar capa no video.
+    - loop:video vai carregar o video sozinho.
+    - muted: o video começa muto.
+    - autoplay
+
+    Obs: para estudar mais sobre: https://developer.mozilla.org/en-US/docs/Web/Media/Formats
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video controls width="500" height="500" loop>
+        <source src="airplane.mp4" type="video/mp4">
+       <p>Este navegador não suporta esse tipo de video</p>
+    </video>
+</body>
+</html>
