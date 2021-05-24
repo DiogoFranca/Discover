@@ -1,0 +1,22 @@
+* Attribute selector
+    - Um elemento que tenha um atributo específico.
+
+
+* Exemplo:
+    *html
+
+    `<div title="Uma image aleatória">Hello World</div>` 
+
+    * CSS
+
+        [title] {
+        color: orange;
+        background-color: black;
+        width: 80px;}
+
+* Pseudo-class selector
+    - Elementos em estado específico.
+
+    * Exemplo
+        `p:hover`
+
